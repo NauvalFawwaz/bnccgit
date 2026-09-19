@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+        name="description"
+        content="Profile Card project for GitReady 2.0 Git and GitHub Workshop."
+    >
+    <title>GitReady 2.0 | Profile Card</title>
+</head>
+
+<body>
+
+    <header class="navbar">
+        <a href="#" class="logo">GitReady 2.0</a>
+
+        <div class="navbar-actions">
+            <nav class="member-nav" aria-label="Pilih anggota tim">
+                <button
+                    class="member-link active"
+                    type="button"
+                    data-member="0"
+                    aria-pressed="true"
+                >
+                    Nauval
+                </button>
+
+                <button
+                    class="member-link"
+                    type="button"
+                    data-member="1"
+                    aria-pressed="false"
+                >
+                    Ezza
+                </button>
+
+                <button
+                    class="member-link"
+                    type="button"
+                    data-member="2"
+                    aria-pressed="false"
+                >
+                    Anggota 3
+                </button>
+            </nav>
+
+            <button
+                id="theme-toggle"
+                class="btn-toggle"
+                type="button"
+                aria-label="Ubah tema tampilan"
+            >
+                🌙 Dark Mode
+            </button>
+        </div>
+    </header>
+
+    <main>
+
+        <section class="hero" aria-labelledby="user-name">
+
+            <p class="profile-label">TEAM PROFILE</p>
+
+            <img
+                src="https://i.pravatar.cc/300?img=12"
+                alt="Foto profil Nauval Fawwaz"
+                class="avatar"
+            >
+
+            <div class="profile-content">
+                <h2 id="user-name">Nauval Fawwaz</h2>
+
+                <p id="user-role">Web Developer</p>
+            </div>
+
+            <button
+                id="counter-btn"
+                class="btn-primary"
+                type="button"
+            >
+                Like
+                <span aria-hidden="true">·</span>
+                <span id="counter">0</span>
+            </button>
+
+        </section>
+
+        <section class="about" aria-labelledby="about-title">
+
+            <div class="section-heading">
+                <span>01</span>
+                <h3 id="about-title">Tentang Saya</h3>
+            </div>
+
+            <p>
+                Saya tertarik pada pengembangan website dan software,
+                serta senang mempelajari teknologi baru melalui project
+                dan kolaborasi bersama tim.
+            </p>
+
+        </section>
+
+        <section class="skills" aria-labelledby="skills-title">
+
+            <div class="section-heading">
+                <span>02</span>
+                <h3 id="skills-title">Skill</h3>
+            </div>
+
+            <ul id="skill-list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+
+        </section>
+
+        <section class="project-info" aria-labelledby="project-title">
+
+            <div class="section-heading">
+                <span>03</span>
+                <h3 id="project-title">GitReady 2.0</h3>
+            </div>
+
+            <p>
+                Project ini dibuat sebagai latihan kolaborasi menggunakan
+                Git dan GitHub, mulai dari branching, commit, pull request,
+                code review, hingga proses merge.
+            </p>
+
+            <a
+                href="https://github.com/NauvalFawwaz/gitready-2.0-bncc"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="repo-link"
+            >
+                View Repository
+            </a>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>GitReady 2.0 · Git & GitHub Workshop</p>
+        <p>Built collaboratively in 2026</p>
+    </footer>
+
+</body>
+</html>
