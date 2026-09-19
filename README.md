@@ -8,7 +8,7 @@ Team Profile adalah halaman profil interaktif yang dibuat sebagai study case Git
 
 ![Project Preview](assets/preview.png)
 
-Live Demo: Coming Soon
+Live Demo: https://bnccgit.vercel.app/
 
 ---
 
