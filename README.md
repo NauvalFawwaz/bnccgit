@@ -6,7 +6,7 @@ Team Profile adalah halaman profil interaktif yang dibuat sebagai study case Git
 
 ## Visualisasi
 
-![Screenshot](link-screenshot-kamu.png)
+![Project Preview](assets/preview.png)
 
 Live Demo: Coming Soon
 
